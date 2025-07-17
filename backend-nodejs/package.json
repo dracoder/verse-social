@@ -1,0 +1,65 @@
+{
+  "name": "verse-backend-nodejs",
+  "version": "1.0.0",
+  "description": "Node.js backend for Verse social media platform",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "echo 'Portfolio repository - dependencies not included' && exit 1",
+    "dev": "echo 'Portfolio repository - dependencies not included' && exit 1",
+    "test": "echo 'Portfolio repository - dependencies not included' && exit 1",
+    "test:watch": "echo 'Portfolio repository - dependencies not included' && exit 1",
+    "test:coverage": "echo 'Portfolio repository - dependencies not included' && exit 1",
+    "lint": "echo 'Portfolio repository - dependencies not included' && exit 1",
+    "lint:fix": "echo 'Portfolio repository - dependencies not included' && exit 1",
+    "format": "echo 'Portfolio repository - dependencies not included' && exit 1"
+  },
+  "keywords": [
+    "social-media",
+    "nodejs",
+    "express",
+    "api"
+  ],
+  "author": "Verse Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "express-validator": "^7.2.0",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "sequelize-cli": "^6.6.3",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/app.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  }
+}
